@@ -33,7 +33,7 @@
 }
 
 .ban-list {
-  flex: 1;
+  flex: 0.8;
   background-color: #A98F84;
   color: #FAEDF0;
   padding: 15px;

@@ -71,7 +71,7 @@ function App() {
       <div className="main-content">
         <div className='main-container'>
           <h1>Trippin' on Dogs</h1>
-          <h2>Discover dogs from your wildest dreams! 🐾</h2>
+          <h2>Discover an image for a dog with sepcific image size and id! 🐾</h2>
           {currentImage && (
             <div>
               <button onClick={() => addToBanList(`Width: ${currentImage.width}`)}>Width: {currentImage.width}</button>
