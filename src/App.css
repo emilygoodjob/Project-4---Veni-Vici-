@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Contents */
+.app-container {
+  display: flex; 
+  height: 100vh; 
+  width: 100vw;
+  justify-content: space-between; 
+}
+
+.main-content {
+  flex: 2; /* Allows this section to take twice the space of the history-section */
+  padding: 30px;
+  background-image: url("assets/bg.jpg");
+  color: #704524;
+  overflow: hidden;
+}
+
+.main-container {
+  text-align: center;
+  background-color: rgba(239, 226, 229, 0.9); /* 50% transparency */
+  padding: 0.5rem;
+  border-radius: 3rem;
+}
+
+.history-section {
+  flex: 0.8;
+  background-color: #A98F84;
+  color: #FAEDF0;
+  padding: 5px;
+  overflow-y: auto; /* Enable vertical scrolling */
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.ban-list {
+  flex: 1; /* Same as history-section to maintain balance */
+  background-color: #A98F84;
+  color: #FAEDF0;
+  padding: 15px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional styling for buttons, titles, etc., can be added here */
+button {
+  padding: 1.2rem 3rem !important;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem !important;
+
+  font-size: 1.7em !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  color: #704524;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Texts */
+h1 {
+  font-size: 2em;
+  font-weight: 800;
 }
 
-.card {
-  padding: 2em;
+h2 {
+  font-size: 1.8em;
+  font-weight: 700; 
 }
 
-.read-the-docs {
-  color: #888;
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.topic-text {
+  margin-top: 5rem;
 }
