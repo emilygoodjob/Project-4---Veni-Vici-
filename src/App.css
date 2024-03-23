@@ -7,7 +7,7 @@
 }
 
 .main-content {
-  flex: 2; /* Allows this section to take twice the space of the history-section */
+  flex: 2;
   padding: 30px;
   background-image: url("assets/bg.jpg");
   color: #704524;
@@ -17,8 +17,10 @@
 .main-container {
   text-align: center;
   background-color: rgba(239, 226, 229, 0.9); /* 50% transparency */
+  height: 95vh;
   padding: 0.5rem;
   border-radius: 3rem;
+  overflow-y: auto;
 }
 
 .history-section {
@@ -31,7 +33,7 @@
 }
 
 .ban-list {
-  flex: 1; /* Same as history-section to maintain balance */
+  flex: 1;
   background-color: #A98F84;
   color: #FAEDF0;
   padding: 15px;
@@ -42,8 +44,9 @@
 /* Additional styling for buttons, titles, etc., can be added here */
 button {
   padding: 1.2rem 3rem !important;
-  margin-top: 20px;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
   cursor: pointer;
   border: none;
   border-radius: 1.5rem !important;
@@ -70,6 +73,11 @@ h3 {
   font-weight: 600;
 }
 
+p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
 .topic-text {
-  margin-top: 5rem;
+  margin-top: rem;
 }
