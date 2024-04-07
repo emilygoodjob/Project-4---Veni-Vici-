@@ -1,4 +1,4 @@
-# Web Development Project 4 - *Name of App Here*
+# Web Development Project 4 - *Veni Vici!*
 
 Submitted by: **Emily Gao Wang**
 
